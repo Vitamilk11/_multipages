@@ -1,0 +1,31 @@
+.timer{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: rgb(255, 189, 189);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+}
+
+.timer > input{
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: end;
+    width: 15rem;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 0.25rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+}
